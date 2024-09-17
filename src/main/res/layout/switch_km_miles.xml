@@ -1,0 +1,11 @@
+<androidx.appcompat.widget.SwitchCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Km_Miles"
+    android:layout_width="110dp"
+    android:layout_height="match_parent"
+
+    android:background="#000000"
+    android:checked="true"
+    android:colorForeground="#FDFCFC"
+    android:thumbTint="#2FCD0C"
+    android:trackTint="@color/white"
+    android:theme="@style/Switch"/>

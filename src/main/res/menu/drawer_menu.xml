@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Km_Miles"
+        android:title="Km or Miles"
+        app:actionLayout="@layout/switch_km_miles"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/map"
+        android:icon="@drawable/ic_map"
+        android:title="Change Map"/>
+
+    <item android:id="@+id/landmarkType"
+        android:icon="@drawable/ic_landmark2"
+        android:title="Preferred Landmark Type"/>
+
+    <item android:id="@+id/favLandmark"
+        android:icon="@drawable/ic_favourite2"
+        android:title="Favourite Landmarks"
+        />
+
+    <item android:id="@+id/rendezvous"
+        android:icon="@drawable/ic_rendezvous2"
+        android:title="My Rendezvous"/>
+
+    <!--item android:id="@+id/delay"
+        android:icon="@drawable/ic_delay"
+        android:title="Signal Delay"/-->
+
+    <item android:id="@+id/logOut"
+        android:icon="@drawable/ic_logout"
+        android:title="Log Out"/>
+</group>
+</menu>

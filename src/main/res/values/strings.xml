@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_home"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="Delay_prompt">Choose delay type</string>
+
+    <string-array name="delay_arrays">
+        <item>Traffic</item>
+        <item>Accident</item>
+        <item>Construction</item>
+        <item>Road-block</item>
+    </string-array>
+
+
+</resources>
+
+
+
+
+
+
+
+

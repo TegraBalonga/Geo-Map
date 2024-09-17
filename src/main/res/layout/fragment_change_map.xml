@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FF0000">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:fitsSystemWindows="true"
+        tools:context=".Home"
+        tools:openDrawer="start"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="#000000">
+
+
+        <RelativeLayout
+            android:id="@+id/close_lay"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#2FCD0C"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="140dp"
+                android:layout_marginEnd="141dp"
+                android:layout_marginBottom="1dp"
+                app:srcCompat="@drawable/ic_highlight_off_black_24dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ivDefault"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_above="@+id/ivTerrain"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/ic_map2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ivTerrain"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="5dp"
+            android:text="Default"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivTerrain"
+            android:layout_width="137dp"
+            android:layout_height="134dp"
+            android:layout_above="@+id/ivSatellite"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="95dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/terrain2" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ivSatellite"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="5dp"
+            android:text="Terrain"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivSatellite"
+            android:layout_width="153dp"
+            android:layout_height="139dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/satellites" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="5dp"
+            android:text="Satellite"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
